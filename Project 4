@@ -1,0 +1,10 @@
+import os 
+
+file1 = input ("Enter the file to be searched") 
+resp = os.walk ("G:\\lestsupgrade 2sep") 
+
+For root, dirs, files in resp:
+    print (root) 
+    For file in files:
+        if file == file1 :
+            print(root) 
